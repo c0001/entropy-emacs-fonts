@@ -1,0 +1,46 @@
+#+title: entropy emacs fonts
+#+author: Entropy (bmsac0001@gmail.com)
+#+date: 2023-10-14
+
+The fonts related to(/suggested by) [[https://github.com/c0001/entropy-emacs][entropy-emacs]] project but no
+necessary to bind it to thus but strongly recommended to use.
+
+* Follow fonts under this project are free of charge:
+
+- [[ https://adobe-fonts.github.io/source-code-pro/][Adobe-Source-Code-Pro]] (OFL-1.1 License): Monospaced font family for
+  user interface and coding environments
+- [[https://github.com/domtronn/all-the-icons.el][All The Icons]] (MIT License): published as an subroutine of the emacs
+  package.
+- [[https://www.droidfonts.com/][Droid]] (Apache): a contemporary serif typeface family designed for
+  comfortable reading on screen.
+- [[https://github.com/tonsky/FiraCode][Fire Code]] (OFL-1.1 License): free monospaced font with programming
+  ligatures.
+- [[https://www.gnu.org/software/freefont/][Gnu-Free]] (GPL v3) : a free family of scalable outline fonts,
+  suitable for general use on computers and for desktop publishing. It
+  is Unicode-encoded for compatibility with all modern operating
+  systems.
+- [[https://fonts.google.com/noto][Google Noto]] (Apache 2.0): a collection of high-quality fonts with
+  multiple weights and widths in sans, serif, mono, and other styles.
+- [[https://github.com/liberationfonts/liberation-fonts][Liberation]] (OFL-1.1 License): a font family which aims at metric
+  compatibility with Arial, Times New Roman, and Courier New.
+- [[https://github.com/subframe7536/maple-font][MapleMono-SC-NF]] (OFL-1.1 License): Open source monospace font with
+  round corner, ligatures and Nerd-Font for IDE and command line. 带连
+  字和控制台图标的圆角等宽字体，中英文宽度完美2:1
+- [[https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo][Meslo-NerdFont]] (MIT licenese): Iconic font aggregator, collection, &
+  patcher. 3,600+ icons, 50+ patched Fonts.
+- [[https://github.com/be5invis/Sarasa-Gothic][Sarasa Gothic TTF]] (OFL-1.1 License): a CJK programming font based on
+  Iosevka and Source Han Sans.
+- [[https://fontlibrary.org/en/font/symbola][Symbola]] (Freeware licenese): Symbola by George Douros Symbol blocks
+  of The Unicode Standard, version 9.00.
+- [[http://wenq.org][wenquanyi(文全驿)]] (GPL v2): unmaintained CJK open source font.
+
+* Follow fonts under this project are not free of charge (using without any warranty, please delete while study out of then):
+- Mt-extra (wpsoffice copyright): used in wps office suites for symbol
+  renderring
+- WindowsFonts (Microsoft Windows copyright): fonts of windows10 2021
+
+* Usage
+
+Extract this project to your specified font location
+e.g. =~/.local/share/fonts= etc. then load it to you system e.g. linux
+env use ~fc-cache -f PATH~.
